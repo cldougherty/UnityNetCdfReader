@@ -1,0 +1,55 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/Scripts/Editor/Co2EditorStylesheet.uss?fileID=7433441132597879392&amp;guid=e545a88f551efbe4e836461916c1cf15&amp;type=3#Co2EditorStylesheet" />
+    <uie:Toolbar style="display: none;">
+        <uie:ToolbarButton text="Button" display-tooltip-when-elided="true" />
+        <uie:ToolbarButton text="Button" display-tooltip-when-elided="true" />
+    </uie:Toolbar>
+    <ui:VisualElement style="flex-direction: column; letter-spacing: 0; -unity-font-style: normal; opacity: 1; flex-basis: auto; display: flex;">
+        <ui:Label text="Unity netCDF/HDF Loader" display-tooltip-when-elided="true" name="Label" style="-unity-text-align: upper-center; font-size: 24px;" />
+        <ui:VisualElement name="DatasetSelection" tooltip="must be on same drive as project? do not specify drive letter?">
+            <ui:Label text="File Selection" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; -unity-font-style: bold; font-size: 15px;" />
+            <ui:TextField picking-mode="Ignore" label="Dataset path" value="filler text" text="/Users/EXAMPLE/Documents/dataset.nc4" name="datasetFilePath" style="color: rgb(255, 255, 255); -unity-font: none; -unity-font-style: normal; -unity-text-outline-color: rgb(255, 0, 0); -unity-text-outline-width: 0; opacity: 1;" />
+            <ui:Button text="Select HDF File" display-tooltip-when-elided="true" name="UseHdfFileFromPathButton" style="font-size: 12px; white-space: normal;" />
+            <ui:Label text="Dataset Status: Nothing loaded" display-tooltip-when-elided="true" name="datasetFileStatusLabel" />
+        </ui:VisualElement>
+        <ui:VisualElement name="LatLongInfo" style="opacity: 1; flex-wrap: nowrap; justify-content: flex-start; flex-direction: column; display: none;">
+            <ui:Label text="Latitude Longitude Information" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; -unity-font-style: bold; font-size: 15px;" />
+            <ui:Button text="Get Lat/Long Dimensions From HDF " display-tooltip-when-elided="true" name="GetLatLonDimensionsButton" />
+            <ui:Label text="Long Count:" display-tooltip-when-elided="true" name="LongitudeCountLabel" />
+            <ui:Label text="Lat Count" display-tooltip-when-elided="true" name="LatitudeCountLabel" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Visualization" style="flex-direction: column; display: none;">
+            <ui:Label text="Visualization Options" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; -unity-font-style: bold; font-size: 15px;" />
+            <ui:RadioButtonGroup value="0" label="Map plot/key format" name="PlotVisualizationChoiceRadioGroup" choices="Gradient,Colormap" style="opacity: 1; width: 100%;" />
+            <uie:GradientField label="Dataset Gradient" name="DatasetGradientField" />
+            <uie:ObjectField label="Dataset ColorRamp" usage-hints="None" type="UnityEngine.Texture2D, UnityEngine.CoreModule, *.act" name="ColorRampTextureField" style="align-items: auto;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="BoundingCoordinates">
+            <ui:Label text="Bounding Coordinates" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; -unity-font-style: bold; font-size: 15px;" />
+            <uie:FloatField label="SouthBoundingCoordinate" value="-90" name="SouthBoundingCoordinateFloatField" />
+            <uie:FloatField label="NorthBoundingCoordinate" value="90" name="NorthBoundingCoordinateFloatField" style="display: flex; visibility: visible; overflow: hidden;" />
+            <uie:FloatField label="WestBoundingCoordinate" value="-180" name="WestBoundingCoordinateFloatField" />
+            <uie:FloatField label="EastBoundingCoordinate" value="179.4" name="EastBoundingCoordinateFloatField" />
+            <ui:Button text="Get Bounding Coordinates" display-tooltip-when-elided="true" name="GetBoundingCoordinatesButton" style="opacity: 1; display: flex; visibility: visible;" />
+        </ui:VisualElement>
+        <ui:Button text="Read Xco2FromHDF" display-tooltip-when-elided="true" name="ReadXco2FromHDFButton" style="display: none;" />
+        <ui:VisualElement name="HeatmapSettings" style="flex-direction: column; display: none;">
+            <ui:Label text="3D Heatmap Settings" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; -unity-font-style: bold; font-size: 15px;" />
+            <uie:ObjectField label="HeatMap cube" type="UnityEngine.GameObject, UnityEngine.CoreModule" name="HeatmapObjectField" />
+            <ui:SliderInt picking-mode="Ignore" label="3d map resolution" value="1" high-value="100" low-value="1" name="HeatmapResolutionSlider" />
+            <uie:ObjectField label="Point Cube Material" type="UnityEngine.Material, UnityEngine.CoreModule" name="PointMaterialField" />
+            <ui:Button text="Make 3D Heatmap" display-tooltip-when-elided="true" name="Make3dHeatmapButton" />
+        </ui:VisualElement>
+        <ui:VisualElement name="WorldOverlaySettings" style="display: none;">
+            <ui:Label text="World Overlay Settings" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; -unity-font-style: bold; font-size: 15px;" />
+            <uie:ObjectField label="Earth Shell Game Object" type="UnityEngine.GameObject, UnityEngine.CoreModule" name="EarthShellGameObjectField" />
+            <uie:ObjectField label="World Overlay Material" type="UnityEngine.Material, UnityEngine.CoreModule" name="WorldMaterialField" />
+            <ui:Button text="Make Texture and apply to object" display-tooltip-when-elided="true" name="MakeAndApplyTextureButton" style="display: none;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:ListView focusable="true" reorderable="true" header-title="Test Header File" show-foldout-header="false" show-border="false" name="VariableToPlotListView" binding-path="plots" style="display: none;" />
+    <ui:Button text="Display Current Dataset Info" display-tooltip-when-elided="true" name="DisplayCurrentFileInfoButton" />
+    <ui:ListView focusable="true" name="HdfContentsListView" style="display: none;" />
+    <uie:FloatField label="Custom Min Value" value="Infinity" name="_CustomMinValueFloatValue" />
+    <uie:FloatField label="Custom Max Value" value="Infinity" name="_CustomMaxValueFloatValue" />
+</ui:UXML>

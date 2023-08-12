@@ -1,0 +1,5462 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d9b5dbae12c1ca48b7bb1ecfef14e0c, type: 3}
+  m_Name: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+  m_EditorClassIdentifier: 
+  hdfFiles:
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201503_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201503_B10206Ar
+    latLegend:
+    - -90
+    - -89.5
+    - -89
+    - -88.5
+    - -88
+    - -87.5
+    - -87
+    - -86.5
+    - -86
+    - -85.5
+    - -85
+    - -84.5
+    - -84
+    - -83.5
+    - -83
+    - -82.5
+    - -82
+    - -81.5
+    - -81
+    - -80.5
+    - -80
+    - -79.5
+    - -79
+    - -78.5
+    - -78
+    - -77.5
+    - -77
+    - -76.5
+    - -76
+    - -75.5
+    - -75
+    - -74.5
+    - -74
+    - -73.5
+    - -73
+    - -72.5
+    - -72
+    - -71.5
+    - -71
+    - -70.5
+    - -70
+    - -69.5
+    - -69
+    - -68.5
+    - -68
+    - -67.5
+    - -67
+    - -66.5
+    - -66
+    - -65.5
+    - -65
+    - -64.5
+    - -64
+    - -63.5
+    - -63
+    - -62.5
+    - -62
+    - -61.5
+    - -61
+    - -60.5
+    - -60
+    - -59.5
+    - -59
+    - -58.5
+    - -58
+    - -57.5
+    - -57
+    - -56.5
+    - -56
+    - -55.5
+    - -55
+    - -54.5
+    - -54
+    - -53.5
+    - -53
+    - -52.5
+    - -52
+    - -51.5
+    - -51
+    - -50.5
+    - -50
+    - -49.5
+    - -49
+    - -48.5
+    - -48
+    - -47.5
+    - -47
+    - -46.5
+    - -46
+    - -45.5
+    - -45
+    - -44.5
+    - -44
+    - -43.5
+    - -43
+    - -42.5
+    - -42
+    - -41.5
+    - -41
+    - -40.5
+    - -40
+    - -39.5
+    - -39
+    - -38.5
+    - -38
+    - -37.5
+    - -37
+    - -36.5
+    - -36
+    - -35.5
+    - -35
+    - -34.5
+    - -34
+    - -33.5
+    - -33
+    - -32.5
+    - -32
+    - -31.5
+    - -31
+    - -30.5
+    - -30
+    - -29.5
+    - -29
+    - -28.5
+    - -28
+    - -27.5
+    - -27
+    - -26.5
+    - -26
+    - -25.5
+    - -25
+    - -24.5
+    - -24
+    - -23.5
+    - -23
+    - -22.5
+    - -22
+    - -21.5
+    - -21
+    - -20.5
+    - -20
+    - -19.5
+    - -19
+    - -18.5
+    - -18
+    - -17.5
+    - -17
+    - -16.5
+    - -16
+    - -15.5
+    - -15
+    - -14.5
+    - -14
+    - -13.5
+    - -13
+    - -12.5
+    - -12
+    - -11.5
+    - -11
+    - -10.5
+    - -10
+    - -9.5
+    - -9
+    - -8.5
+    - -8
+    - -7.5
+    - -7
+    - -6.5
+    - -6
+    - -5.5
+    - -5
+    - -4.5
+    - -4
+    - -3.5
+    - -3
+    - -2.5
+    - -2
+    - -1.5
+    - -1
+    - -0.5
+    - -0.00000000000017975103014118005
+    - 0.5
+    - 1
+    - 1.5
+    - 2
+    - 2.5
+    - 3
+    - 3.5
+    - 4
+    - 4.5
+    - 5
+    - 5.5
+    - 6
+    - 6.5
+    - 7
+    - 7.5
+    - 8
+    - 8.5
+    - 9
+    - 9.5
+    - 10
+    - 10.5
+    - 11
+    - 11.5
+    - 12
+    - 12.5
+    - 13
+    - 13.5
+    - 14
+    - 14.5
+    - 15
+    - 15.5
+    - 16
+    - 16.5
+    - 17
+    - 17.5
+    - 18
+    - 18.5
+    - 19
+    - 19.5
+    - 20
+    - 20.5
+    - 21
+    - 21.5
+    - 22
+    - 22.5
+    - 23
+    - 23.5
+    - 24
+    - 24.5
+    - 25
+    - 25.5
+    - 26
+    - 26.5
+    - 27
+    - 27.5
+    - 28
+    - 28.5
+    - 29
+    - 29.5
+    - 30
+    - 30.5
+    - 31
+    - 31.5
+    - 32
+    - 32.5
+    - 33
+    - 33.5
+    - 34
+    - 34.5
+    - 35
+    - 35.5
+    - 36
+    - 36.5
+    - 37
+    - 37.5
+    - 38
+    - 38.5
+    - 39
+    - 39.5
+    - 40
+    - 40.5
+    - 41
+    - 41.5
+    - 42
+    - 42.5
+    - 43
+    - 43.5
+    - 44
+    - 44.5
+    - 45
+    - 45.5
+    - 46
+    - 46.5
+    - 47
+    - 47.5
+    - 48
+    - 48.5
+    - 49
+    - 49.5
+    - 50
+    - 50.5
+    - 51
+    - 51.5
+    - 52
+    - 52.5
+    - 53
+    - 53.5
+    - 54
+    - 54.5
+    - 55
+    - 55.5
+    - 56
+    - 56.5
+    - 57
+    - 57.5
+    - 58
+    - 58.5
+    - 59
+    - 59.5
+    - 60
+    - 60.5
+    - 61
+    - 61.5
+    - 62
+    - 62.5
+    - 63
+    - 63.5
+    - 64
+    - 64.5
+    - 65
+    - 65.5
+    - 66
+    - 66.5
+    - 67
+    - 67.5
+    - 68
+    - 68.5
+    - 69
+    - 69.5
+    - 70
+    - 70.5
+    - 71
+    - 71.5
+    - 72
+    - 72.5
+    - 73
+    - 73.5
+    - 74
+    - 74.5
+    - 75
+    - 75.5
+    - 76
+    - 76.5
+    - 77
+    - 77.5
+    - 78
+    - 78.5
+    - 79
+    - 79.5
+    - 80
+    - 80.5
+    - 81
+    - 81.5
+    - 82
+    - 82.5
+    - 83
+    - 83.5
+    - 84
+    - 84.5
+    - 85
+    - 85.5
+    - 86
+    - 86.5
+    - 87
+    - 87.5
+    - 88
+    - 88.5
+    - 89
+    - 89.5
+    - 90
+    lonLegend:
+    - -180
+    - -179.375
+    - -178.75
+    - -178.125
+    - -177.5
+    - -176.875
+    - -176.25
+    - -175.625
+    - -175
+    - -174.375
+    - -173.75
+    - -173.125
+    - -172.5
+    - -171.875
+    - -171.25
+    - -170.625
+    - -170
+    - -169.375
+    - -168.75
+    - -168.125
+    - -167.5
+    - -166.875
+    - -166.25
+    - -165.625
+    - -165
+    - -164.375
+    - -163.75
+    - -163.125
+    - -162.5
+    - -161.875
+    - -161.25
+    - -160.625
+    - -160
+    - -159.375
+    - -158.75
+    - -158.125
+    - -157.5
+    - -156.875
+    - -156.25
+    - -155.625
+    - -155
+    - -154.375
+    - -153.75
+    - -153.125
+    - -152.5
+    - -151.875
+    - -151.25
+    - -150.625
+    - -150
+    - -149.375
+    - -148.75
+    - -148.125
+    - -147.5
+    - -146.875
+    - -146.25
+    - -145.625
+    - -145
+    - -144.375
+    - -143.75
+    - -143.125
+    - -142.5
+    - -141.875
+    - -141.25
+    - -140.625
+    - -140
+    - -139.375
+    - -138.75
+    - -138.125
+    - -137.5
+    - -136.875
+    - -136.25
+    - -135.625
+    - -135
+    - -134.375
+    - -133.75
+    - -133.125
+    - -132.5
+    - -131.875
+    - -131.25
+    - -130.625
+    - -130
+    - -129.375
+    - -128.75
+    - -128.125
+    - -127.5
+    - -126.875
+    - -126.25
+    - -125.625
+    - -125
+    - -124.375
+    - -123.75
+    - -123.125
+    - -122.5
+    - -121.875
+    - -121.25
+    - -120.625
+    - -120
+    - -119.375
+    - -118.75
+    - -118.125
+    - -117.5
+    - -116.875
+    - -116.25
+    - -115.625
+    - -115
+    - -114.375
+    - -113.75
+    - -113.125
+    - -112.5
+    - -111.875
+    - -111.25
+    - -110.625
+    - -110
+    - -109.375
+    - -108.75
+    - -108.125
+    - -107.5
+    - -106.875
+    - -106.25
+    - -105.625
+    - -105
+    - -104.375
+    - -103.75
+    - -103.125
+    - -102.5
+    - -101.875
+    - -101.25
+    - -100.625
+    - -100
+    - -99.375
+    - -98.75
+    - -98.125
+    - -97.5
+    - -96.875
+    - -96.25
+    - -95.625
+    - -95
+    - -94.375
+    - -93.75
+    - -93.125
+    - -92.5
+    - -91.875
+    - -91.25
+    - -90.625
+    - -90
+    - -89.375
+    - -88.75
+    - -88.125
+    - -87.5
+    - -86.875
+    - -86.25
+    - -85.625
+    - -85
+    - -84.375
+    - -83.75
+    - -83.125
+    - -82.5
+    - -81.875
+    - -81.25
+    - -80.625
+    - -80
+    - -79.375
+    - -78.75
+    - -78.125
+    - -77.5
+    - -76.875
+    - -76.25
+    - -75.625
+    - -75
+    - -74.375
+    - -73.75
+    - -73.125
+    - -72.5
+    - -71.875
+    - -71.25
+    - -70.625
+    - -70
+    - -69.375
+    - -68.75
+    - -68.125
+    - -67.5
+    - -66.875
+    - -66.25
+    - -65.625
+    - -65
+    - -64.375
+    - -63.75
+    - -63.125
+    - -62.5
+    - -61.875
+    - -61.25
+    - -60.625
+    - -60
+    - -59.375
+    - -58.75
+    - -58.125
+    - -57.5
+    - -56.875
+    - -56.25
+    - -55.625
+    - -55
+    - -54.375
+    - -53.75
+    - -53.125
+    - -52.5
+    - -51.875
+    - -51.25
+    - -50.625
+    - -50
+    - -49.375
+    - -48.75
+    - -48.125
+    - -47.5
+    - -46.875
+    - -46.25
+    - -45.625
+    - -45
+    - -44.375
+    - -43.75
+    - -43.125
+    - -42.5
+    - -41.875
+    - -41.25
+    - -40.625
+    - -40
+    - -39.375
+    - -38.75
+    - -38.125
+    - -37.5
+    - -36.875
+    - -36.25
+    - -35.625
+    - -35
+    - -34.375
+    - -33.75
+    - -33.125
+    - -32.5
+    - -31.875
+    - -31.25
+    - -30.625
+    - -30
+    - -29.375
+    - -28.75
+    - -28.125
+    - -27.5
+    - -26.875
+    - -26.25
+    - -25.625
+    - -25
+    - -24.375
+    - -23.75
+    - -23.125
+    - -22.5
+    - -21.875
+    - -21.25
+    - -20.625
+    - -20
+    - -19.375
+    - -18.75
+    - -18.125
+    - -17.5
+    - -16.875
+    - -16.25
+    - -15.625
+    - -15
+    - -14.375
+    - -13.75
+    - -13.125
+    - -12.5
+    - -11.875
+    - -11.25
+    - -10.625
+    - -10
+    - -9.375
+    - -8.75
+    - -8.125
+    - -7.5
+    - -6.875
+    - -6.25
+    - -5.625
+    - -5
+    - -4.375
+    - -3.75
+    - -3.125
+    - -2.5
+    - -1.875
+    - -1.25
+    - -0.625
+    - -0.0000000000005920304394294029
+    - 0.625
+    - 1.25
+    - 1.875
+    - 2.5
+    - 3.125
+    - 3.75
+    - 4.375
+    - 5
+    - 5.625
+    - 6.25
+    - 6.875
+    - 7.5
+    - 8.125
+    - 8.75
+    - 9.375
+    - 10
+    - 10.625
+    - 11.25
+    - 11.875
+    - 12.5
+    - 13.125
+    - 13.75
+    - 14.375
+    - 15
+    - 15.625
+    - 16.25
+    - 16.875
+    - 17.5
+    - 18.125
+    - 18.75
+    - 19.375
+    - 20
+    - 20.625
+    - 21.25
+    - 21.875
+    - 22.5
+    - 23.125
+    - 23.75
+    - 24.375
+    - 25
+    - 25.625
+    - 26.25
+    - 26.875
+    - 27.5
+    - 28.125
+    - 28.75
+    - 29.375
+    - 30
+    - 30.625
+    - 31.25
+    - 31.875
+    - 32.5
+    - 33.125
+    - 33.75
+    - 34.375
+    - 35
+    - 35.625
+    - 36.25
+    - 36.875
+    - 37.5
+    - 38.125
+    - 38.75
+    - 39.375
+    - 40
+    - 40.625
+    - 41.25
+    - 41.875
+    - 42.5
+    - 43.125
+    - 43.75
+    - 44.375
+    - 45
+    - 45.625
+    - 46.25
+    - 46.875
+    - 47.5
+    - 48.125
+    - 48.75
+    - 49.375
+    - 50
+    - 50.625
+    - 51.25
+    - 51.875
+    - 52.5
+    - 53.125
+    - 53.75
+    - 54.375
+    - 55
+    - 55.625
+    - 56.25
+    - 56.875
+    - 57.5
+    - 58.125
+    - 58.75
+    - 59.375
+    - 60
+    - 60.625
+    - 61.25
+    - 61.875
+    - 62.5
+    - 63.125
+    - 63.75
+    - 64.375
+    - 65
+    - 65.625
+    - 66.25
+    - 66.875
+    - 67.5
+    - 68.125
+    - 68.75
+    - 69.375
+    - 70
+    - 70.625
+    - 71.25
+    - 71.875
+    - 72.5
+    - 73.125
+    - 73.75
+    - 74.375
+    - 75
+    - 75.625
+    - 76.25
+    - 76.875
+    - 77.5
+    - 78.125
+    - 78.75
+    - 79.375
+    - 80
+    - 80.625
+    - 81.25
+    - 81.875
+    - 82.5
+    - 83.125
+    - 83.75
+    - 84.375
+    - 85
+    - 85.625
+    - 86.25
+    - 86.875
+    - 87.5
+    - 88.125
+    - 88.75
+    - 89.375
+    - 90
+    - 90.625
+    - 91.25
+    - 91.875
+    - 92.5
+    - 93.125
+    - 93.75
+    - 94.375
+    - 95
+    - 95.625
+    - 96.25
+    - 96.875
+    - 97.5
+    - 98.125
+    - 98.75
+    - 99.375
+    - 100
+    - 100.625
+    - 101.25
+    - 101.875
+    - 102.5
+    - 103.125
+    - 103.75
+    - 104.375
+    - 105
+    - 105.625
+    - 106.25
+    - 106.875
+    - 107.5
+    - 108.125
+    - 108.75
+    - 109.375
+    - 110
+    - 110.625
+    - 111.25
+    - 111.875
+    - 112.5
+    - 113.125
+    - 113.75
+    - 114.375
+    - 115
+    - 115.625
+    - 116.25
+    - 116.875
+    - 117.5
+    - 118.125
+    - 118.75
+    - 119.375
+    - 120
+    - 120.625
+    - 121.25
+    - 121.875
+    - 122.5
+    - 123.125
+    - 123.75
+    - 124.375
+    - 125
+    - 125.625
+    - 126.25
+    - 126.875
+    - 127.5
+    - 128.125
+    - 128.75
+    - 129.375
+    - 130
+    - 130.625
+    - 131.25
+    - 131.875
+    - 132.5
+    - 133.125
+    - 133.75
+    - 134.375
+    - 135
+    - 135.625
+    - 136.25
+    - 136.875
+    - 137.5
+    - 138.125
+    - 138.75
+    - 139.375
+    - 140
+    - 140.625
+    - 141.25
+    - 141.875
+    - 142.5
+    - 143.125
+    - 143.75
+    - 144.375
+    - 145
+    - 145.625
+    - 146.25
+    - 146.875
+    - 147.5
+    - 148.125
+    - 148.75
+    - 149.375
+    - 150
+    - 150.625
+    - 151.25
+    - 151.875
+    - 152.5
+    - 153.125
+    - 153.75
+    - 154.375
+    - 155
+    - 155.625
+    - 156.25
+    - 156.875
+    - 157.5
+    - 158.125
+    - 158.75
+    - 159.375
+    - 160
+    - 160.625
+    - 161.25
+    - 161.875
+    - 162.5
+    - 163.125
+    - 163.75
+    - 164.375
+    - 165
+    - 165.625
+    - 166.25
+    - 166.875
+    - 167.5
+    - 168.125
+    - 168.75
+    - 169.375
+    - 170
+    - 170.625
+    - 171.25
+    - 171.875
+    - 172.5
+    - 173.125
+    - 173.75
+    - 174.375
+    - 175
+    - 175.625
+    - 176.25
+    - 176.875
+    - 177.5
+    - 178.125
+    - 178.75
+    - 179.375
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.0004054176878848774
+      minValueInDataset: 0.00039455712601099344
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 3a9da8c52a758784eb15fa18aa031064, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201504_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201504_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00040470555153054497
+      minValueInDataset: 0.0003945281566605748
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: daef3dae475cf4046a2bb7559fdba13f, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201505_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201505_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00040446661354977666
+      minValueInDataset: 0.0003948010359430731
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 0bab0347b058bfb4d9e26c375e96d027, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201506_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201506_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00040380413205033016
+      minValueInDataset: 0.00039531686197733504
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 1dede1802873e6d4cafba2d3c7200063, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201507_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201507_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.0004028757911357623
+      minValueInDataset: 0.00039219571478878927
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 8355988f0666b914293d59dd6c5a5b11, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201508_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201508_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00040145776109702343
+      minValueInDataset: 0.00039194094842382436
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 5c54ba00da4be75449bb5259f816ff22, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201509_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201509_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00040136711189309914
+      minValueInDataset: 0.0003937149718694855
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 1e321e9f9761a534ab907a2e4e1d6bb1, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201510_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201510_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00040159335103160103
+      minValueInDataset: 0.00039635491468230144
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: a4263714efbc77541ad117b4e6a0cc31, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201511_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201511_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.000405727447529595
+      minValueInDataset: 0.00039669698162470013
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 2c3b1f6156451164e9b75bcf879910f5, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201512_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201512_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00040628401620779186
+      minValueInDataset: 0.0003967393879006962
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: b5048dacf86d374469025ae412de9ad0, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201601_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201601_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.0004069935226476856
+      minValueInDataset: 0.0003966865257215461
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 67f16ba044735f745b7923cfa107f6ba, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201602_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201602_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00040691072228645647
+      minValueInDataset: 0.0003970636624154426
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 778cc627baf99894587b9d63cdb4f922, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201603_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201603_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00040855714084295133
+      minValueInDataset: 0.0003974524967610881
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: e3d4eaac516aa6141b1066c7576e3a38, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201604_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201604_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.0004087584621932668
+      minValueInDataset: 0.0003977291014355918
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 543ef53d467a4da4699f2bc3322a5641, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201605_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201605_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.000408739312279654
+      minValueInDataset: 0.0003980146352513393
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 4f7c58270198e7d44a69cc6789f7c6a2, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201607_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201607_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.0004065218618639084
+      minValueInDataset: 0.0003951003920754433
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 8fe93915cbe0064439aa4f9fa057ebe8, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201608_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201608_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00040518741567915814
+      minValueInDataset: 0.0003950062402450825
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 4a8d109599ca44a4aaaf39e98d8667c3, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201609_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201609_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.0004039091039885534
+      minValueInDataset: 0.0003971175879996736
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: d3f14a9a86892244d835408198439b3d, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201610_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201610_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00040589929619360896
+      minValueInDataset: 0.00039933269820927134
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: a4ba8f55eadc61144abd18d9c20aaba3, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201611_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201611_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00040731512284158575
+      minValueInDataset: 0.00039960938217215394
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 17cb313ea602551488d2d699d8a01864, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201612_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201612_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.0004093670335526939
+      minValueInDataset: 0.00039972067409713244
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: d4176f7bd4551bd40b7785d1a0205038, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201701_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201701_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.0004095872209290974
+      minValueInDataset: 0.00040006556504991865
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: fcb499e59dc46304aa0663aed839de19, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201702_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201702_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00040969573131275993
+      minValueInDataset: 0.000399992357285685
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 512316a4f376d1142bfa1370c603a57d, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201703_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201703_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.0004107216132509958
+      minValueInDataset: 0.00040007925312121156
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 431eebefc7308764caf2d963a533b020, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201704_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201704_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00041045946903371563
+      minValueInDataset: 0.00040009619491077807
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 9ce31c08b9574e44c9a4b4ef1d43c154, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201705_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201705_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00041030066906035155
+      minValueInDataset: 0.0004002822889531437
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 27d68fa8e022356479fefd4bd9c236f7, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201706_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201706_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00040968767571030184
+      minValueInDataset: 0.0004003492296760669
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 678f1d12e9efc0141ae6c882c0deaf20, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201707_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201707_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.000408156451392701
+      minValueInDataset: 0.0003977039217011958
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: f4f71fff0a59c3a46894e7638afa8537, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201708_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201708_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.0004073746722790548
+      minValueInDataset: 0.00039696552701042813
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 91f24d22f4a23ab4a9cde43d31f2b848, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201709_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201709_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.0004070285095319074
+      minValueInDataset: 0.0003990437755419407
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 07c281f7102e32f4c9c020d25eeaa1e4, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201710_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201710_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00040802487884291386
+      minValueInDataset: 0.0004015202168609962
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 63712e029c7f5e44a8a1c5e7c5fcbcce, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201711_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201711_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.0004088555531780003
+      minValueInDataset: 0.0004013424544003404
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 1b1fdd3c15a1ce647a4872e39b3dd434, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201712_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201712_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00041071517109465334
+      minValueInDataset: 0.00040139947469147193
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 09eb1d032bbe75d469446aa2d1ce7b98, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201801_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201801_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00041112061021962175
+      minValueInDataset: 0.00040205026075014873
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 95ee001e9650a6d45885e3fcdacd4b6e, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201802_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201802_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.0004117298241388718
+      minValueInDataset: 0.00040193488608305676
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 59a6424be0434fb4796b27b3df6aed1c, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201803_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201803_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.0004130165456914373
+      minValueInDataset: 0.00040202832585031675
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: b95956fb9c8639042a314813cff15c4f, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201804_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201804_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00041272467982101567
+      minValueInDataset: 0.00040229109460293935
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 206341964c062a6468d961ea0a127c3f, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201805_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201805_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.0004123709512632265
+      minValueInDataset: 0.0004024572354542362
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 6c1f107162a6f9646801bedebb5819a3, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201806_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201806_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.0004119380177144194
+      minValueInDataset: 0.0004028456080656421
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 7d908ba7d455f8e4393c3f88e6c7e4b9, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201807_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201807_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.000411292627470703
+      minValueInDataset: 0.0004003746135793101
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 07f56ddd92110fe498a879e3c421af3e, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201808_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201808_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.0004097641216386335
+      minValueInDataset: 0.00039938171903486364
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 762e91a3435e65e488ad83212d690fc2, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201809_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201809_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00040901315539182783
+      minValueInDataset: 0.0004013774574559648
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 5e17e7af3144d0a429413d79a8b89f2b, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201810_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201810_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.0004104189783608871
+      minValueInDataset: 0.00040373884293066727
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: d6b6a7a8316499f42a125c683712bd01, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201811_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201811_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.0004121534194079383
+      minValueInDataset: 0.0004040249536046758
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 18d1bdd3448708d40ab8347d64bb8c34, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201812_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201812_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00041345467475513296
+      minValueInDataset: 0.00040404651771231944
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 5d61cb746b904f64b8002a06e1ff60b3, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201901_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201901_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00041438674088567495
+      minValueInDataset: 0.00040411409199511965
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: e61dbe53668f8954fa511c20dbb9037e, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201902_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201902_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00041474281053004755
+      minValueInDataset: 0.00040458236747196807
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 4671fe5c29717294fa9402b75d678751, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201903_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201903_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00041465959915395583
+      minValueInDataset: 0.00040433414746545283
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 2ef519b4e01836742bac132f143a1992, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201904_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201904_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00041545592539478094
+      minValueInDataset: 0.00040464298690494615
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 2ad7950b337579a4eb24faac4a6aeae8, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201905_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201905_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.0004157479069685759
+      minValueInDataset: 0.0004048219730799657
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: bee3d8144b117a64dadd08b63974426b, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201906_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201906_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00041422687002826326
+      minValueInDataset: 0.0004050816842209315
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 42ec7496345138741bc2c17db0cd29ed, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201907_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201907_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00041392743843325956
+      minValueInDataset: 0.0004031144998143352
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 982dea834d542ca4a84125a508e8b3fa, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201908_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201908_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.0004123988574945308
+      minValueInDataset: 0.00040240213861726524
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 1d3ec8f682b35db4eaeef9b768179ae4, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201909_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201909_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00041448867414146663
+      minValueInDataset: 0.0004043375641534415
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 5b28b3cfe9b32204199be44a0923cb8a, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201910_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201910_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00041253355307309256
+      minValueInDataset: 0.0004063383494212758
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: ad66831cd3c289d449c580d6b551f1b3, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201911_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201911_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00041487584664234113
+      minValueInDataset: 0.00040659116202732546
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 1ac6816feb022fb40a77013a497b4656, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_201912_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_201912_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.0004156696301041877
+      minValueInDataset: 0.00040667667065375304
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 246c6f56ae1604c46a4969e03591de74, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_202001_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_202001_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.0004179016420582024
+      minValueInDataset: 0.0004070591313657426
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 4aa0f2bf138f5504fb551353b66f6739, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_202002_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_202002_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.0004173400591063345
+      minValueInDataset: 0.00040720750332874216
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: a0b4255013635eb45b8caebb769da6f1, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_202003_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_202003_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.0004170633035227506
+      minValueInDataset: 0.00040711710009359636
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 0181445ee4375e344a3ae904023cdf74, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_202004_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_202004_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00041788173475652
+      minValueInDataset: 0.00040740188899993275
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 7d264e3091712814aaea34cdf44ef075, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_202005_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_202005_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00041746367024907453
+      minValueInDataset: 0.00040754503812246595
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 918373baf1c3aff41ae30cf52e316aae, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_202006_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_202006_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00041756776372494644
+      minValueInDataset: 0.0004077360349280449
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: e3d488e4c9490274db8aa252d3566af1, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_202007_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_202007_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.0004161906623677726
+      minValueInDataset: 0.0004053247364701688
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: b1f3e1b35c9268a488e6afcb750796c4, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_202008_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_202008_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00041481116087168393
+      minValueInDataset: 0.00040471385504896453
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: d38b98ddd43f50e4eb960e9dc7caebe9, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_202009_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_202009_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00041424300616199616
+      minValueInDataset: 0.0004062782308513609
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: fd282d8aac515e44095649d801dd4f41, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_202010_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_202010_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00041485565523016114
+      minValueInDataset: 0.0004085207468550277
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 166ef15ccf691db419ff0b229fda5359, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_202011_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_202011_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00041736909285342943
+      minValueInDataset: 0.0004093257322286566
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: ba23a966469b9f14389daadc67ef2af4, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_202012_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_202012_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.0004195435947387464
+      minValueInDataset: 0.0004092232552319465
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 0f4b4380f7547c649affaeb60487bf48, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_202101_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_202101_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.0004195827203793376
+      minValueInDataset: 0.00040943850199842165
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 73ea6a2cfd630a5409d89c7d8bcad205, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_202102_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_202102_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00041967605778024463
+      minValueInDataset: 0.0004095413274366625
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: fb75660799deb614ba7990883325d806, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_202103_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_202103_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.0004214337079188666
+      minValueInDataset: 0.00040929898515910723
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: b76fc808e1daa1447bb929ce273b36a4, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_202104_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_202104_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00042115013081153545
+      minValueInDataset: 0.00040952400947086667
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: c36bfae584e5a684e9c65208edf66d37, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_202105_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_202105_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.0004201495326161685
+      minValueInDataset: 0.0004095750997704829
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: d62468ba2ed917b458ebd17e3b5764d1, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_202107_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_202107_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00041848609978314337
+      minValueInDataset: 0.00040852347029290433
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: df47ef456147b9e489133df72d2153fb, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_202108_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_202108_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00041710869106370205
+      minValueInDataset: 0.00040740181242243477
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 379fd8c8b4be24248ab94a4a589f1d63, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_202109_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_202109_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.0004170364924599805
+      minValueInDataset: 0.00040923509210794387
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: d39852c1c23796241bb3933691d096a8, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_202110_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_202110_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.0004177644617401154
+      minValueInDataset: 0.00041123924623412503
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 93f772fa9d36b884f95486117f8df19b, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_202111_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_202111_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.0004195363354180396
+      minValueInDataset: 0.0004113414732273668
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 6f0207e4f664de747ad78bea11bed673, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_202112_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_202112_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00042131835993308004
+      minValueInDataset: 0.0004114771518582148
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: b3756653acfdd1f4e8659a8e7b90b6f1, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_202201_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_202201_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.0004230546740385058
+      minValueInDataset: 0.0004115835646159887
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 3cbfbcc6a005ef341ac684c0410dcf42, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/GitHub/ClimateJam2022-Oculus2/Assets/Datasets/OCO-2/oco2_GEOS_L3CO2_month_202202_B10206Ar.nc4
+    fileName: oco2_GEOS_L3CO2_month_202202_B10206Ar
+    latLegend: []
+    lonLegend: []
+    shortName: OCO2_GEOS_L3CO2_MONTH_10r
+    longName: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    title: OCO-2 GEOS Level 3 monthly, 0.5x0.625 assimilated CO2
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: XCO2
+      longName: Assimilated dry-air column average CO2 daily mean
+      units: mol CO2/mol dry
+      cellMethods: 'time: mean'
+      maxValueInDataset: 0.00042337707730309503
+      minValueInDataset: 0.00041200934421275245
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: ecdaad7a07db92c44a13f010cde3eeab, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0

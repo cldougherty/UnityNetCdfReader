@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:TextField picking-mode="Ignore" label="Variable To Plot" value="Max Temp" text="Max Temp" name="VariableToPlotName" />
+    <ui:Label text="Min Value In DataSet:" display-tooltip-when-elided="true" />
+    <ui:Label text="Max Value In DataSet:" display-tooltip-when-elided="true" />
+    <ui:VisualElement name="BoundingCoordinates">
+        <ui:Label text="Bounding Coordinates" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; -unity-font-style: bold; font-size: 15px;" />
+        <uie:FloatField label="SouthBoundingCoordinate" value="-90" name="SouthBoundingCoordinateFloatField" />
+        <uie:FloatField label="NorthBoundingCoordinate" value="90" name="NorthBoundingCoordinateFloatField" style="display: flex; visibility: visible; overflow: hidden;" />
+        <uie:FloatField label="WestBoundingCoordinate" value="-180" name="WestBoundingCoordinateFloatField" />
+        <uie:FloatField label="EastBoundingCoordinate" value="179.4" name="EastBoundingCoordinateFloatField" />
+    </ui:VisualElement>
+</ui:UXML>

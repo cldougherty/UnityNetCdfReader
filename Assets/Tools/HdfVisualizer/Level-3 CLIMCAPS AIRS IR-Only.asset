@@ -1,0 +1,1467 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d9b5dbae12c1ca48b7bb1ecfef14e0c, type: 3}
+  m_Name: Level-3 CLIMCAPS AIRS IR-Only
+  m_EditorClassIdentifier: 
+  hdfFiles:
+  - path: /Users/Chris/Documents/climatejam2022/Datasets/Nasa/Sounder-SIPS-AQUA-AIRS-IR-only-Level-3-CLIMCAPS-Comprehensive-Quality-Control-Gridded-Monthly-V2/SNDR.AQUA.AIRS.20020901.M01.L3_CLIMCAPS_QCC.std.v02_38.G.210413100515.nc
+    fileName: SNDR.AQUA.AIRS.20020901.M01.L3_CLIMCAPS_QCC.std.v02_38.G.210413100515
+    latLegend:
+    - -89.5
+    - -88.5
+    - -87.5
+    - -86.5
+    - -85.5
+    - -84.5
+    - -83.5
+    - -82.5
+    - -81.5
+    - -80.5
+    - -79.5
+    - -78.5
+    - -77.5
+    - -76.5
+    - -75.5
+    - -74.5
+    - -73.5
+    - -72.5
+    - -71.5
+    - -70.5
+    - -69.5
+    - -68.5
+    - -67.5
+    - -66.5
+    - -65.5
+    - -64.5
+    - -63.5
+    - -62.5
+    - -61.5
+    - -60.5
+    - -59.5
+    - -58.5
+    - -57.5
+    - -56.5
+    - -55.5
+    - -54.5
+    - -53.5
+    - -52.5
+    - -51.5
+    - -50.5
+    - -49.5
+    - -48.5
+    - -47.5
+    - -46.5
+    - -45.5
+    - -44.5
+    - -43.5
+    - -42.5
+    - -41.5
+    - -40.5
+    - -39.5
+    - -38.5
+    - -37.5
+    - -36.5
+    - -35.5
+    - -34.5
+    - -33.5
+    - -32.5
+    - -31.5
+    - -30.5
+    - -29.5
+    - -28.5
+    - -27.5
+    - -26.5
+    - -25.5
+    - -24.5
+    - -23.5
+    - -22.5
+    - -21.5
+    - -20.5
+    - -19.5
+    - -18.5
+    - -17.5
+    - -16.5
+    - -15.5
+    - -14.5
+    - -13.5
+    - -12.5
+    - -11.5
+    - -10.5
+    - -9.5
+    - -8.5
+    - -7.5
+    - -6.5
+    - -5.5
+    - -4.5
+    - -3.5
+    - -2.5
+    - -1.5
+    - -0.5
+    - 0.5
+    - 1.5
+    - 2.5
+    - 3.5
+    - 4.5
+    - 5.5
+    - 6.5
+    - 7.5
+    - 8.5
+    - 9.5
+    - 10.5
+    - 11.5
+    - 12.5
+    - 13.5
+    - 14.5
+    - 15.5
+    - 16.5
+    - 17.5
+    - 18.5
+    - 19.5
+    - 20.5
+    - 21.5
+    - 22.5
+    - 23.5
+    - 24.5
+    - 25.5
+    - 26.5
+    - 27.5
+    - 28.5
+    - 29.5
+    - 30.5
+    - 31.5
+    - 32.5
+    - 33.5
+    - 34.5
+    - 35.5
+    - 36.5
+    - 37.5
+    - 38.5
+    - 39.5
+    - 40.5
+    - 41.5
+    - 42.5
+    - 43.5
+    - 44.5
+    - 45.5
+    - 46.5
+    - 47.5
+    - 48.5
+    - 49.5
+    - 50.5
+    - 51.5
+    - 52.5
+    - 53.5
+    - 54.5
+    - 55.5
+    - 56.5
+    - 57.5
+    - 58.5
+    - 59.5
+    - 60.5
+    - 61.5
+    - 62.5
+    - 63.5
+    - 64.5
+    - 65.5
+    - 66.5
+    - 67.5
+    - 68.5
+    - 69.5
+    - 70.5
+    - 71.5
+    - 72.5
+    - 73.5
+    - 74.5
+    - 75.5
+    - 76.5
+    - 77.5
+    - 78.5
+    - 79.5
+    - 80.5
+    - 81.5
+    - 82.5
+    - 83.5
+    - 84.5
+    - 85.5
+    - 86.5
+    - 87.5
+    - 88.5
+    - 89.5
+    lonLegend:
+    - -179.5
+    - -178.5
+    - -177.5
+    - -176.5
+    - -175.5
+    - -174.5
+    - -173.5
+    - -172.5
+    - -171.5
+    - -170.5
+    - -169.5
+    - -168.5
+    - -167.5
+    - -166.5
+    - -165.5
+    - -164.5
+    - -163.5
+    - -162.5
+    - -161.5
+    - -160.5
+    - -159.5
+    - -158.5
+    - -157.5
+    - -156.5
+    - -155.5
+    - -154.5
+    - -153.5
+    - -152.5
+    - -151.5
+    - -150.5
+    - -149.5
+    - -148.5
+    - -147.5
+    - -146.5
+    - -145.5
+    - -144.5
+    - -143.5
+    - -142.5
+    - -141.5
+    - -140.5
+    - -139.5
+    - -138.5
+    - -137.5
+    - -136.5
+    - -135.5
+    - -134.5
+    - -133.5
+    - -132.5
+    - -131.5
+    - -130.5
+    - -129.5
+    - -128.5
+    - -127.5
+    - -126.5
+    - -125.5
+    - -124.5
+    - -123.5
+    - -122.5
+    - -121.5
+    - -120.5
+    - -119.5
+    - -118.5
+    - -117.5
+    - -116.5
+    - -115.5
+    - -114.5
+    - -113.5
+    - -112.5
+    - -111.5
+    - -110.5
+    - -109.5
+    - -108.5
+    - -107.5
+    - -106.5
+    - -105.5
+    - -104.5
+    - -103.5
+    - -102.5
+    - -101.5
+    - -100.5
+    - -99.5
+    - -98.5
+    - -97.5
+    - -96.5
+    - -95.5
+    - -94.5
+    - -93.5
+    - -92.5
+    - -91.5
+    - -90.5
+    - -89.5
+    - -88.5
+    - -87.5
+    - -86.5
+    - -85.5
+    - -84.5
+    - -83.5
+    - -82.5
+    - -81.5
+    - -80.5
+    - -79.5
+    - -78.5
+    - -77.5
+    - -76.5
+    - -75.5
+    - -74.5
+    - -73.5
+    - -72.5
+    - -71.5
+    - -70.5
+    - -69.5
+    - -68.5
+    - -67.5
+    - -66.5
+    - -65.5
+    - -64.5
+    - -63.5
+    - -62.5
+    - -61.5
+    - -60.5
+    - -59.5
+    - -58.5
+    - -57.5
+    - -56.5
+    - -55.5
+    - -54.5
+    - -53.5
+    - -52.5
+    - -51.5
+    - -50.5
+    - -49.5
+    - -48.5
+    - -47.5
+    - -46.5
+    - -45.5
+    - -44.5
+    - -43.5
+    - -42.5
+    - -41.5
+    - -40.5
+    - -39.5
+    - -38.5
+    - -37.5
+    - -36.5
+    - -35.5
+    - -34.5
+    - -33.5
+    - -32.5
+    - -31.5
+    - -30.5
+    - -29.5
+    - -28.5
+    - -27.5
+    - -26.5
+    - -25.5
+    - -24.5
+    - -23.5
+    - -22.5
+    - -21.5
+    - -20.5
+    - -19.5
+    - -18.5
+    - -17.5
+    - -16.5
+    - -15.5
+    - -14.5
+    - -13.5
+    - -12.5
+    - -11.5
+    - -10.5
+    - -9.5
+    - -8.5
+    - -7.5
+    - -6.5
+    - -5.5
+    - -4.5
+    - -3.5
+    - -2.5
+    - -1.5
+    - -0.5
+    - 0.5
+    - 1.5
+    - 2.5
+    - 3.5
+    - 4.5
+    - 5.5
+    - 6.5
+    - 7.5
+    - 8.5
+    - 9.5
+    - 10.5
+    - 11.5
+    - 12.5
+    - 13.5
+    - 14.5
+    - 15.5
+    - 16.5
+    - 17.5
+    - 18.5
+    - 19.5
+    - 20.5
+    - 21.5
+    - 22.5
+    - 23.5
+    - 24.5
+    - 25.5
+    - 26.5
+    - 27.5
+    - 28.5
+    - 29.5
+    - 30.5
+    - 31.5
+    - 32.5
+    - 33.5
+    - 34.5
+    - 35.5
+    - 36.5
+    - 37.5
+    - 38.5
+    - 39.5
+    - 40.5
+    - 41.5
+    - 42.5
+    - 43.5
+    - 44.5
+    - 45.5
+    - 46.5
+    - 47.5
+    - 48.5
+    - 49.5
+    - 50.5
+    - 51.5
+    - 52.5
+    - 53.5
+    - 54.5
+    - 55.5
+    - 56.5
+    - 57.5
+    - 58.5
+    - 59.5
+    - 60.5
+    - 61.5
+    - 62.5
+    - 63.5
+    - 64.5
+    - 65.5
+    - 66.5
+    - 67.5
+    - 68.5
+    - 69.5
+    - 70.5
+    - 71.5
+    - 72.5
+    - 73.5
+    - 74.5
+    - 75.5
+    - 76.5
+    - 77.5
+    - 78.5
+    - 79.5
+    - 80.5
+    - 81.5
+    - 82.5
+    - 83.5
+    - 84.5
+    - 85.5
+    - 86.5
+    - 87.5
+    - 88.5
+    - 89.5
+    - 90.5
+    - 91.5
+    - 92.5
+    - 93.5
+    - 94.5
+    - 95.5
+    - 96.5
+    - 97.5
+    - 98.5
+    - 99.5
+    - 100.5
+    - 101.5
+    - 102.5
+    - 103.5
+    - 104.5
+    - 105.5
+    - 106.5
+    - 107.5
+    - 108.5
+    - 109.5
+    - 110.5
+    - 111.5
+    - 112.5
+    - 113.5
+    - 114.5
+    - 115.5
+    - 116.5
+    - 117.5
+    - 118.5
+    - 119.5
+    - 120.5
+    - 121.5
+    - 122.5
+    - 123.5
+    - 124.5
+    - 125.5
+    - 126.5
+    - 127.5
+    - 128.5
+    - 129.5
+    - 130.5
+    - 131.5
+    - 132.5
+    - 133.5
+    - 134.5
+    - 135.5
+    - 136.5
+    - 137.5
+    - 138.5
+    - 139.5
+    - 140.5
+    - 141.5
+    - 142.5
+    - 143.5
+    - 144.5
+    - 145.5
+    - 146.5
+    - 147.5
+    - 148.5
+    - 149.5
+    - 150.5
+    - 151.5
+    - 152.5
+    - 153.5
+    - 154.5
+    - 155.5
+    - 156.5
+    - 157.5
+    - 158.5
+    - 159.5
+    - 160.5
+    - 161.5
+    - 162.5
+    - 163.5
+    - 164.5
+    - 165.5
+    - 166.5
+    - 167.5
+    - 168.5
+    - 169.5
+    - 170.5
+    - 171.5
+    - 172.5
+    - 173.5
+    - 174.5
+    - 175.5
+    - 176.5
+    - 177.5
+    - 178.5
+    - 179.5
+    shortName: 
+    longName: 
+    title: Level-3 CLIMCAPS AIRS IR-Only
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: co2_vmr_uppertrop
+      longName: CO2 upper troposphere VMR
+      units: m3 / m3
+      cellMethods: 
+      maxValueInDataset: 0.00039130434743128717
+      minValueInDataset: 0.00036768734571523964
+      customMin: 0
+      customMax: 0
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: e956baef213fa4d4892ad0e893096863, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/climatejam2022/Datasets/Nasa/Sounder-SIPS-AQUA-AIRS-IR-only-Level-3-CLIMCAPS-Comprehensive-Quality-Control-Gridded-Monthly-V2/SNDR.AQUA.AIRS.20021001.M01.L3_CLIMCAPS_QCC.std.v02_38.G.210413175740.nc
+    fileName: SNDR.AQUA.AIRS.20021001.M01.L3_CLIMCAPS_QCC.std.v02_38.G.210413175740
+    latLegend: []
+    lonLegend: []
+    shortName: 
+    longName: 
+    title: Level-3 CLIMCAPS AIRS IR-Only
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: co2_vmr_uppertrop
+      longName: CO2 upper troposphere VMR
+      units: m3 / m3
+      cellMethods: 
+      maxValueInDataset: 0.00039155405829660594
+      minValueInDataset: 0.00036896453821100295
+      customMin: 0
+      customMax: 0
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: b5ff3022ee3e16747b6e133778d70349, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/climatejam2022/Datasets/Nasa/Sounder-SIPS-AQUA-AIRS-IR-only-Level-3-CLIMCAPS-Comprehensive-Quality-Control-Gridded-Monthly-V2/SNDR.AQUA.AIRS.20021101.M01.L3_CLIMCAPS_QCC.std.v02_38.G.210413174020.nc
+    fileName: SNDR.AQUA.AIRS.20021101.M01.L3_CLIMCAPS_QCC.std.v02_38.G.210413174020
+    latLegend: []
+    lonLegend: []
+    shortName: 
+    longName: 
+    title: Level-3 CLIMCAPS AIRS IR-Only
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: co2_vmr_uppertrop
+      longName: CO2 upper troposphere VMR
+      units: m3 / m3
+      cellMethods: 
+      maxValueInDataset: 0.00039041804848238826
+      minValueInDataset: 0.0003700938250403851
+      customMin: 0
+      customMax: 0
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 7cd896e53a3c6a54696bd73b38f218ba, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/climatejam2022/Datasets/Nasa/Sounder-SIPS-AQUA-AIRS-IR-only-Level-3-CLIMCAPS-Comprehensive-Quality-Control-Gridded-Monthly-V2/SNDR.AQUA.AIRS.20021201.M01.L3_CLIMCAPS_QCC.std.v02_38.G.210413173100.nc
+    fileName: SNDR.AQUA.AIRS.20021201.M01.L3_CLIMCAPS_QCC.std.v02_38.G.210413173100
+    latLegend: []
+    lonLegend: []
+    shortName: 
+    longName: 
+    title: Level-3 CLIMCAPS AIRS IR-Only
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: co2_vmr_uppertrop
+      longName: CO2 upper troposphere VMR
+      units: m3 / m3
+      cellMethods: 
+      maxValueInDataset: 0.00039013661444187164
+      minValueInDataset: 0.0003705171402543783
+      customMin: 0
+      customMax: 0
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 1eb1eb2a1c326834587afccbff1ccec3, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/climatejam2022/Datasets/Nasa/Sounder-SIPS-AQUA-AIRS-IR-only-Level-3-CLIMCAPS-Comprehensive-Quality-Control-Gridded-Monthly-V2/SNDR.AQUA.AIRS.20030101.M01.L3_CLIMCAPS_QCC.std.v02_38.G.210412191419.nc
+    fileName: SNDR.AQUA.AIRS.20030101.M01.L3_CLIMCAPS_QCC.std.v02_38.G.210412191419
+    latLegend: []
+    lonLegend: []
+    shortName: 
+    longName: 
+    title: Level-3 CLIMCAPS AIRS IR-Only
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: co2_vmr_uppertrop
+      longName: CO2 upper troposphere VMR
+      units: m3 / m3
+      cellMethods: 
+      maxValueInDataset: 0.00038949178997427225
+      minValueInDataset: 0.00037074199644848704
+      customMin: 0
+      customMax: 0
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: c2be26990588f604b80f98c7b5a8ff15, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/climatejam2022/Datasets/Nasa/Sounder-SIPS-AQUA-AIRS-IR-only-Level-3-CLIMCAPS-Comprehensive-Quality-Control-Gridded-Monthly-V2/SNDR.AQUA.AIRS.20030201.M01.L3_CLIMCAPS_QCC.std.v02_38.G.210412192539.nc
+    fileName: SNDR.AQUA.AIRS.20030201.M01.L3_CLIMCAPS_QCC.std.v02_38.G.210412192539
+    latLegend: []
+    lonLegend: []
+    shortName: 
+    longName: 
+    title: Level-3 CLIMCAPS AIRS IR-Only
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: co2_vmr_uppertrop
+      longName: CO2 upper troposphere VMR
+      units: m3 / m3
+      cellMethods: 
+      maxValueInDataset: 0.0003908054204657674
+      minValueInDataset: 0.0003711021563503891
+      customMin: 0
+      customMax: 0
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: d6b729f688e7a7045885774cfba35f1d, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/climatejam2022/Datasets/Nasa/Sounder-SIPS-AQUA-AIRS-IR-only-Level-3-CLIMCAPS-Comprehensive-Quality-Control-Gridded-Monthly-V2/SNDR.AQUA.AIRS.20030301.M01.L3_CLIMCAPS_QCC.std.v02_38.G.210412213803.nc
+    fileName: SNDR.AQUA.AIRS.20030301.M01.L3_CLIMCAPS_QCC.std.v02_38.G.210412213803
+    latLegend: []
+    lonLegend: []
+    shortName: 
+    longName: 
+    title: Level-3 CLIMCAPS AIRS IR-Only
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: co2_vmr_uppertrop
+      longName: CO2 upper troposphere VMR
+      units: m3 / m3
+      cellMethods: 
+      maxValueInDataset: 0.0003909715742338449
+      minValueInDataset: 0.00037090133992023766
+      customMin: 0
+      customMax: 0
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 6982f02b08ee9ed41aac01a95a5b2d67, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/climatejam2022/Datasets/Nasa/Sounder-SIPS-AQUA-AIRS-IR-only-Level-3-CLIMCAPS-Comprehensive-Quality-Control-Gridded-Monthly-V2/SNDR.AQUA.AIRS.20030401.M01.L3_CLIMCAPS_QCC.std.v02_38.G.210412215104.nc
+    fileName: SNDR.AQUA.AIRS.20030401.M01.L3_CLIMCAPS_QCC.std.v02_38.G.210412215104
+    latLegend: []
+    lonLegend: []
+    shortName: 
+    longName: 
+    title: Level-3 CLIMCAPS AIRS IR-Only
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: co2_vmr_uppertrop
+      longName: CO2 upper troposphere VMR
+      units: m3 / m3
+      cellMethods: 
+      maxValueInDataset: 0.00039301597280427814
+      minValueInDataset: 0.0003719516098499298
+      customMin: 0
+      customMax: 0
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 75167c358840c774ca34aa8984c0b5e8, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/climatejam2022/Datasets/Nasa/Sounder-SIPS-AQUA-AIRS-IR-only-Level-3-CLIMCAPS-Comprehensive-Quality-Control-Gridded-Monthly-V2/SNDR.AQUA.AIRS.20030501.M01.L3_CLIMCAPS_QCC.std.v02_38.G.210412192319.nc
+    fileName: SNDR.AQUA.AIRS.20030501.M01.L3_CLIMCAPS_QCC.std.v02_38.G.210412192319
+    latLegend: []
+    lonLegend: []
+    shortName: 
+    longName: 
+    title: Level-3 CLIMCAPS AIRS IR-Only
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: co2_vmr_uppertrop
+      longName: CO2 upper troposphere VMR
+      units: m3 / m3
+      cellMethods: 
+      maxValueInDataset: 0.00039188709342852235
+      minValueInDataset: 0.000371889938833192
+      customMin: 0
+      customMax: 0
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: ef71e98e06f1fa24da9f46a684587749, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/climatejam2022/Datasets/Nasa/Sounder-SIPS-AQUA-AIRS-IR-only-Level-3-CLIMCAPS-Comprehensive-Quality-Control-Gridded-Monthly-V2/SNDR.AQUA.AIRS.20030601.M01.L3_CLIMCAPS_QCC.std.v02_38.G.210412231546.nc
+    fileName: SNDR.AQUA.AIRS.20030601.M01.L3_CLIMCAPS_QCC.std.v02_38.G.210412231546
+    latLegend: []
+    lonLegend: []
+    shortName: 
+    longName: 
+    title: Level-3 CLIMCAPS AIRS IR-Only
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: co2_vmr_uppertrop
+      longName: CO2 upper troposphere VMR
+      units: m3 / m3
+      cellMethods: 
+      maxValueInDataset: 0.0003957698354497552
+      minValueInDataset: 0.00037209506263025105
+      customMin: 0
+      customMax: 0
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 5d69112d26bcd3a4e97ba0fe4bac4eb0, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/climatejam2022/Datasets/Nasa/Sounder-SIPS-AQUA-AIRS-IR-only-Level-3-CLIMCAPS-Comprehensive-Quality-Control-Gridded-Monthly-V2/SNDR.AQUA.AIRS.20030701.M01.L3_CLIMCAPS_QCC.std.v02_38.G.210412233946.nc
+    fileName: SNDR.AQUA.AIRS.20030701.M01.L3_CLIMCAPS_QCC.std.v02_38.G.210412233946
+    latLegend: []
+    lonLegend: []
+    shortName: 
+    longName: 
+    title: Level-3 CLIMCAPS AIRS IR-Only
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: co2_vmr_uppertrop
+      longName: CO2 upper troposphere VMR
+      units: m3 / m3
+      cellMethods: 
+      maxValueInDataset: 0.0003966812801081687
+      minValueInDataset: 0.0003712164470925927
+      customMin: 0
+      customMax: 0
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 4083ce4fc9e52634ba21ec65ca942223, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/climatejam2022/Datasets/Nasa/Sounder-SIPS-AQUA-AIRS-IR-only-Level-3-CLIMCAPS-Comprehensive-Quality-Control-Gridded-Monthly-V2/SNDR.AQUA.AIRS.20030801.M01.L3_CLIMCAPS_QCC.std.v02_38.G.210412231406.nc
+    fileName: SNDR.AQUA.AIRS.20030801.M01.L3_CLIMCAPS_QCC.std.v02_38.G.210412231406
+    latLegend: []
+    lonLegend: []
+    shortName: 
+    longName: 
+    title: Level-3 CLIMCAPS AIRS IR-Only
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: co2_vmr_uppertrop
+      longName: CO2 upper troposphere VMR
+      units: m3 / m3
+      cellMethods: 
+      maxValueInDataset: 0.00039154745172709227
+      minValueInDataset: 0.00037067083758302033
+      customMin: 0
+      customMax: 0
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: b95ca0d918267d54380a9f49aaa167d6, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/climatejam2022/Datasets/Nasa/Sounder-SIPS-AQUA-AIRS-IR-only-Level-3-CLIMCAPS-Comprehensive-Quality-Control-Gridded-Monthly-V2/SNDR.AQUA.AIRS.20030901.M01.L3_CLIMCAPS_QCC.std.v02_38.G.210412232346.nc
+    fileName: SNDR.AQUA.AIRS.20030901.M01.L3_CLIMCAPS_QCC.std.v02_38.G.210412232346
+    latLegend: []
+    lonLegend: []
+    shortName: 
+    longName: 
+    title: Level-3 CLIMCAPS AIRS IR-Only
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: co2_vmr_uppertrop
+      longName: CO2 upper troposphere VMR
+      units: m3 / m3
+      cellMethods: 
+      maxValueInDataset: 0.0003939517482649535
+      minValueInDataset: 0.00037094828439876437
+      customMin: 0
+      customMax: 0
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 3c6559a7177de2c4599b21c25ff26cce, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/climatejam2022/Datasets/Nasa/Sounder-SIPS-AQUA-AIRS-IR-only-Level-3-CLIMCAPS-Comprehensive-Quality-Control-Gridded-Monthly-V2/SNDR.AQUA.AIRS.20031001.M01.L3_CLIMCAPS_QCC.std.v02_38.G.210413022048.nc
+    fileName: SNDR.AQUA.AIRS.20031001.M01.L3_CLIMCAPS_QCC.std.v02_38.G.210413022048
+    latLegend: []
+    lonLegend: []
+    shortName: 
+    longName: 
+    title: Level-3 CLIMCAPS AIRS IR-Only
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: co2_vmr_uppertrop
+      longName: CO2 upper troposphere VMR
+      units: m3 / m3
+      cellMethods: 
+      maxValueInDataset: 0.000393335591070354
+      minValueInDataset: 0.0003713649930432439
+      customMin: 0
+      customMax: 0
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 86112fe1c57fbc74580dd156ebf1ef53, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/climatejam2022/Datasets/Nasa/Sounder-SIPS-AQUA-AIRS-IR-only-Level-3-CLIMCAPS-Comprehensive-Quality-Control-Gridded-Monthly-V2/SNDR.AQUA.AIRS.20031101.M01.L3_CLIMCAPS_QCC.std.v02_38.G.210413022048.nc
+    fileName: SNDR.AQUA.AIRS.20031101.M01.L3_CLIMCAPS_QCC.std.v02_38.G.210413022048
+    latLegend: []
+    lonLegend: []
+    shortName: 
+    longName: 
+    title: Level-3 CLIMCAPS AIRS IR-Only
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: co2_vmr_uppertrop
+      longName: CO2 upper troposphere VMR
+      units: m3 / m3
+      cellMethods: 
+      maxValueInDataset: 0.0003907671489287168
+      minValueInDataset: 0.00037072793929837644
+      customMin: 0
+      customMax: 0
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 19bb5e75a3ca3a8419646a2e87ef2eaf, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0
+  - path: /Users/Chris/Documents/climatejam2022/Datasets/Nasa/Sounder-SIPS-AQUA-AIRS-IR-only-Level-3-CLIMCAPS-Comprehensive-Quality-Control-Gridded-Monthly-V2/SNDR.AQUA.AIRS.20031201.M01.L3_CLIMCAPS_QCC.std.v02_38.G.210413001947.nc
+    fileName: SNDR.AQUA.AIRS.20031201.M01.L3_CLIMCAPS_QCC.std.v02_38.G.210413001947
+    latLegend: []
+    lonLegend: []
+    shortName: 
+    longName: 
+    title: Level-3 CLIMCAPS AIRS IR-Only
+    co2HeatMapMaterial: {fileID: 2100000, guid: 38178fe2316c6c54dbd5b0f575332c56, type: 2}
+    co2PointModel: {fileID: 919132149155446097, guid: 5e1ba507bde1be7439edd36129e0d78b, type: 3}
+    heatMapResolution: 1
+    pointMaterial: {fileID: 2100000, guid: 38575badfb02f644ea6d102beb1f1ace, type: 2}
+    variablesToPlot:
+    - name: co2_vmr_uppertrop
+      longName: CO2 upper troposphere VMR
+      units: m3 / m3
+      cellMethods: 
+      maxValueInDataset: 0.00039081339491531253
+      minValueInDataset: 0.0003720179374795407
+      customMin: 0
+      customMax: 0
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      colorramp: {fileID: 2800000, guid: 108c6b9ceffbe3346a64de161a4da677, type: 3}
+      generatedHeatmap: {fileID: 2800000, guid: 818388a2a2aa25343aadb8b2700b0956, type: 3}
+      missingValue: 0
+      HeatMapGameObjects: []
+    SOUTH_WEST_CORNER_LAT: 0
+    SOUTH_WEST_CORNER_LON: 0
+    DX: 0
+    DY: 0

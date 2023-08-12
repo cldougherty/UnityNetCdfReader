@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 3961642622
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 28ce179bee34943a36a11594073ef476
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 939e20ecac0e95a3f7c5cfb3e57acb1d
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Oculus/VR/Meshes/OculusTouchForQuestAndRiftS/Materials/OculusTouchForQuestAndRiftS_Material.mat
+- Assets/Oculus/VR/Materials/BasicHandMaterial.mat
+- Assets/Oculus/VR/Materials/CubeMaterial.mat
+- Assets/Oculus/VR/Meshes/OculusTouchForRift/Materials/OculusTouchForRift_Material.mat
+- Assets/Oculus/VR/Meshes/OculusTouchForQuest2/Materials/OculusTouchForQuest2_MAT.mat
+Dependencies:
+- C:/Users/Chris/Documents/GitHub/OculusStory2020-3-32/OVRAssetBundles/OVRMasterBundle/asset_png0
+- C:/Users/Chris/Documents/GitHub/OculusStory2020-3-32/OVRAssetBundles/OVRMasterBundle/asset_shader0
+- C:/Users/Chris/Documents/GitHub/OculusStory2020-3-32/OVRAssetBundles/OVRMasterBundle/asset_tga0

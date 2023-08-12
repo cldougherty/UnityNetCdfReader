@@ -1,0 +1,46 @@
+ManifestFileVersion: 0
+CRC: 3041128877
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 078b85d30aa8008088e2d28a67e2ac1e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/ExampleAssets/Textures/Plastic/Plastic_Normal.tif
+- Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Normal.tif
+- Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Albedo.tif
+- Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_MetallicOcculusionSmoothness.tif
+- Assets/ExampleAssets/Textures/Wood/Plywood_Albedo.tif
+- Assets/ExampleAssets/Textures/Props/Paint/Paint5G_AlbedoSmoothness.tif
+- Assets/ExampleAssets/Textures/Drywall/Drywall_Normal.tif
+- Assets/ExampleAssets/Textures/Props/Paint/PaintAnimMask.tif
+- Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif
+- Assets/ExampleAssets/Textures/Plastic/Elastic_MetallicOcculusionSmoothness.tif
+- Assets/ExampleAssets/Textures/Props/Paint/Paint1G_Albedo.tif
+- Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif
+- Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Normal.tif
+- Assets/ExampleAssets/Textures/Props/Paint/Paint1G_MetallicOcculusionRoughness.tif
+- Assets/ExampleAssets/Textures/Wood/OBS_MetallicOcculusionSmoothness.tif
+- Assets/ExampleAssets/Textures/Metal/Metal_MetallicSmoothness.tif
+- Assets/ExampleAssets/Textures/Plastic/Plastic_AlbedoSmoothness.tif
+- Assets/ExampleAssets/Textures/Concrete/Ground_Normal.tif
+- Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_Normal.tif
+- Assets/ExampleAssets/Textures/Concrete/Ground_MetallicOcculusionSmoothness.tif
+- Assets/ExampleAssets/Textures/Props/Hammer/Hammer_MetallicOcculusionSmoothness.tif
+- Assets/ExampleAssets/Textures/Wood/Plywood_MetallicOcculusionSmoothness.tif
+- Assets/ExampleAssets/Textures/Plastic/PlasticRidges_MetallicOcculusionSmoothness.tif
+- Assets/ExampleAssets/Textures/Wood/OBS_Albedo.tif
+- Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Albedo.tif
+- Assets/ExampleAssets/Textures/Metal/Metal_Albedo.tif
+- Assets/ExampleAssets/Textures/Plastic/PlasticRough_Albedo.tif
+- Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_MetallicOcculusionSmoothness.tif
+- Assets/ExampleAssets/Textures/Drywall/Drywall_AlbedoSmoothness.tif
+- Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_MetallicOcculusionSmoothness.tif
+Dependencies: []

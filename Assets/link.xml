@@ -1,0 +1,5 @@
+<linker>
+  <!--Preserve types and members in an assembly-->
+  <assembly fullname="AS.HDFql">
+  </assembly>
+</linker>

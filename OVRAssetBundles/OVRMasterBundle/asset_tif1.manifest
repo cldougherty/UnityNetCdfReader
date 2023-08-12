@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 1198837439
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 19368da167ad3b182bac3cf8cb1b9fab
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/ExampleAssets/Textures/Props/Paint/PaintLabel.tif
+- Assets/ExampleAssets/Textures/Wood/OBS_Normal.tif
+- Assets/ExampleAssets/Textures/Plastic/PlasticRidges_Normal.tif
+- Assets/ExampleAssets/Textures/Metal/Metal_Normal.tif
+- Assets/ExampleAssets/Textures/Drywall/DrywallPainted_Normal.tif
+- Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_Albedo.tif
+- Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Normal.tif
+- Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Albedo.tif
+- Assets/ExampleAssets/Textures/Wood/Plywood_Normal.tif
+- Assets/ExampleAssets/Textures/Drywall/Drywall_Albedo.tif
+- Assets/ExampleAssets/Textures/Concrete/Ground_Albedo.tif
+- Assets/ExampleAssets/Textures/Plastic/PlasticRidges_Albedo.tif
+- Assets/ExampleAssets/Textures/Props/Paint/Paint1G_Normal.tif
+- Assets/ExampleAssets/Textures/Plastic/Elastic_Normal.tif
+- Assets/ExampleAssets/Textures/Plastic/PlasticRough_MetallicOcculusionSmoothness.tif
+Dependencies: []
